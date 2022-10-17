@@ -1,0 +1,52 @@
+.info {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #cccccc8a;
+  z-index: 10;
+}
+
+.info__main {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  margin: auto;
+  padding: 20px;
+}
+
+.info__closeBtn {
+  transform: rotate(45deg) scale(2);
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  background: transparent;
+}
+
+.info__closeBtn:hover {
+  background-color: #cccccc3d;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 20px;
+}
+
+td,
+th {
+  text-align: center;
+  border: 2px solid #568e8f;
+  padding: 7px 10px;
+}
